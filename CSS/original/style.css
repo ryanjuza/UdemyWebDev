@@ -7,8 +7,8 @@ body {
     background-size: cover;
 }
 
-p {
-    color: #D46A6A;
+h2 {
+    color: #2f0202;
     text-align: center;
     border: 5px solid #AA3939;
     cursor: pointer;
@@ -39,4 +39,8 @@ footer{
 li{
     list-style: none;
     display: inline-block;
+}
+
+.webtext{
+    border: 5px dashed green;
 }
