@@ -7,7 +7,7 @@
 </head>
 <body>
     <!--Use GET, not post-->
-    <form action="GET">
+    <form method="GET">
         First Name: <input type="text" name="firstname"><br>
         Last Name: <input type="text" name="lastname"><br>
         Email: <input type="email" name="email" required><br>
@@ -21,7 +21,7 @@
         <input type="checkbox" name="cat"> Cats
         <input type="checkbox" name="dog"> Dogs<br>
         Cars: <br>
-        <select name="cars">
+        <select name="cars"> 
             <option value="Ford" name="ford">Ford</option>
             <option value="Dodge" name="dodge">Dodge</option>
             <option value="Honda" name="honda">Honda</option>
