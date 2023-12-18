@@ -16,9 +16,12 @@ h1 {
 }
 
 hr {
-  border-color: red;
+  margin: 20px auto;
+  color: red;
+  border: 3px solid red;
   border-width: 3px;
   max-width: 65px;
+  opacity: 1;
 }
 
 .buffer {
